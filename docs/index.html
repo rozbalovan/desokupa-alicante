@@ -373,21 +373,21 @@
         <p class="section__desc reveal" data-i18n="coverage_desc">No importa dónde esté tu propiedad. Nuestro equipo se desplaza a cualquier ciudad de España.</p>
       </div>
       <div class="coverage__grid">
-        <div class="coverage__item reveal"><i class="fas fa-city"></i> Madrid</div>
-        <div class="coverage__item reveal reveal-delay-1"><i class="fas fa-city"></i> Barcelona</div>
-        <div class="coverage__item reveal reveal-delay-2"><i class="fas fa-umbrella-beach"></i> Valencia</div>
-        <div class="coverage__item reveal reveal-delay-3"><i class="fas fa-umbrella-beach"></i> Alicante</div>
-        <div class="coverage__item reveal reveal-delay-4"><i class="fas fa-sun"></i> Málaga</div>
-        <div class="coverage__item reveal"><i class="fas fa-sun"></i> Murcia</div>
-        <div class="coverage__item reveal reveal-delay-1"><i class="fas fa-anchor"></i> Sevilla</div>
-        <div class="coverage__item reveal reveal-delay-2"><i class="fas fa-mountain"></i> Granada</div>
-        <div class="coverage__item reveal reveal-delay-3"><i class="fas fa-water"></i> Bilbao</div>
-        <div class="coverage__item reveal reveal-delay-4"><i class="fas fa-island"></i> Mallorca</div>
-        <div class="coverage__item reveal"><i class="fas fa-ship"></i> Cádiz</div>
-        <div class="coverage__item reveal reveal-delay-1"><i class="fas fa-sun"></i> Almería</div>
-        <div class="coverage__item reveal reveal-delay-2"><i class="fas fa-tree"></i> Zaragoza</div>
-        <div class="coverage__item reveal reveal-delay-3"><i class="fas fa-mountain"></i> Valladolid</div>
-        <div class="coverage__item reveal reveal-delay-4"><i class="fas fa-flag"></i> Toda España</div>
+        <a href="#contact" class="coverage__item reveal" data-city="Madrid"><i class="fas fa-city"></i> Madrid</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-1" data-city="Barcelona"><i class="fas fa-city"></i> Barcelona</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-2" data-city="Valencia"><i class="fas fa-umbrella-beach"></i> Valencia</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-3" data-city="Alicante"><i class="fas fa-umbrella-beach"></i> Alicante</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-4" data-city="Málaga"><i class="fas fa-sun"></i> Málaga</a>
+        <a href="#contact" class="coverage__item reveal" data-city="Murcia"><i class="fas fa-sun"></i> Murcia</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-1" data-city="Sevilla"><i class="fas fa-anchor"></i> Sevilla</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-2" data-city="Granada"><i class="fas fa-mountain"></i> Granada</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-3" data-city="Bilbao"><i class="fas fa-water"></i> Bilbao</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-4" data-city="Mallorca"><i class="fas fa-island"></i> Mallorca</a>
+        <a href="#contact" class="coverage__item reveal" data-city="Cádiz"><i class="fas fa-ship"></i> Cádiz</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-1" data-city="Almería"><i class="fas fa-sun"></i> Almería</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-2" data-city="Zaragoza"><i class="fas fa-tree"></i> Zaragoza</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-3" data-city="Valladolid"><i class="fas fa-mountain"></i> Valladolid</a>
+        <a href="#contact" class="coverage__item reveal reveal-delay-4" data-city="Toda España"><i class="fas fa-flag"></i> Toda España</a>
       </div>
     </div>
   </section>
@@ -500,7 +500,12 @@
             <div class="form__group"><input type="tel" name="phone" data-i18n-placeholder="form_phone" placeholder="Teléfono *" required></div>
           </div>
           <div class="form__row">
-            <div class="form__group"><input type="text" name="city" data-i18n-placeholder="form_city" placeholder="Ciudad de la propiedad *" required></div>
+            <div class="form__group">
+              <input type="text" name="city" list="cityList" data-i18n-placeholder="form_city" placeholder="Ciudad de la propiedad *" required id="cityInput">
+              <datalist id="cityList">
+                <option value="Alicante"><option value="Almería"><option value="Barcelona"><option value="Bilbao"><option value="Cádiz"><option value="Castellón"><option value="Córdoba"><option value="Girona"><option value="Granada"><option value="Huelva"><option value="Ibiza"><option value="Jaén"><option value="Las Palmas"><option value="León"><option value="Lleida"><option value="Logroño"><option value="Madrid"><option value="Málaga"><option value="Mallorca"><option value="Menorca"><option value="Murcia"><option value="Oviedo"><option value="Palma"><option value="Pamplona"><option value="Salamanca"><option value="San Sebastián"><option value="Santander"><option value="Santiago"><option value="Sevilla"><option value="Tarragona"><option value="Tenerife"><option value="Toledo"><option value="Valencia"><option value="Valladolid"><option value="Vigo"><option value="Vitoria"><option value="Zaragoza">
+              </datalist>
+            </div>
             <div class="form__group"><input type="email" name="email" data-i18n-placeholder="form_email" placeholder="Email"></div>
           </div>
           <div class="form__group"><textarea name="message" rows="4" data-i18n-placeholder="form_msg" placeholder="Cuéntanos tu caso..."></textarea></div>

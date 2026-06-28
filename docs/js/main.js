@@ -157,4 +157,20 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     document.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
   }
+
+  /* ========== Coverage city links → prefill form ========== */
+  document.querySelectorAll('.coverage__item[data-city]').forEach(item => {
+    item.addEventListener('click', function(e) {
+      const city = this.dataset.city;
+      const input = document.getElementById('cityInput');
+      if (input && city && city !== 'Toda España') {
+        // Small delay to let the scroll happen first
+        setTimeout(() => {
+          input.value = city;
+          input.focus();
+        }, 600);
+      }
+    });
+  });
+
 });
