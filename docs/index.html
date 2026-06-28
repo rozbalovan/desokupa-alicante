@@ -501,10 +501,24 @@
           </div>
           <div class="form__row">
             <div class="form__group">
-              <input type="text" name="city" list="cityList" data-i18n-placeholder="form_city" placeholder="Ciudad de la propiedad *" required id="cityInput">
-              <datalist id="cityList">
-                <option value="Alicante"><option value="Almería"><option value="Barcelona"><option value="Bilbao"><option value="Cádiz"><option value="Castellón"><option value="Córdoba"><option value="Girona"><option value="Granada"><option value="Huelva"><option value="Ibiza"><option value="Jaén"><option value="Las Palmas"><option value="León"><option value="Lleida"><option value="Logroño"><option value="Madrid"><option value="Málaga"><option value="Mallorca"><option value="Menorca"><option value="Murcia"><option value="Oviedo"><option value="Palma"><option value="Pamplona"><option value="Salamanca"><option value="San Sebastián"><option value="Santander"><option value="Santiago"><option value="Sevilla"><option value="Tarragona"><option value="Tenerife"><option value="Toledo"><option value="Valencia"><option value="Valladolid"><option value="Vigo"><option value="Vitoria"><option value="Zaragoza">
-              </datalist>
+              <select name="city" class="form__select" required id="cityInput">
+                <option value="" data-i18n="form_city">Ciudad de la propiedad *</option>
+                <option value="A Coruña">A Coruña</option><option value="Alicante">Alicante</option><option value="Almería">Almería</option>
+                <option value="Barcelona">Barcelona</option><option value="Bilbao">Bilbao</option>
+                <option value="Cádiz">Cádiz</option><option value="Castellón">Castellón</option><option value="Córdoba">Córdoba</option>
+                <option value="Girona">Girona</option><option value="Granada">Granada</option>
+                <option value="Huelva">Huelva</option><option value="Huesca">Huesca</option>
+                <option value="Ibiza">Ibiza</option>
+                <option value="Jaén">Jaén</option><option value="Jerez">Jerez</option>
+                <option value="Las Palmas">Las Palmas</option><option value="León">León</option><option value="Lleida">Lleida</option><option value="Logroño">Logroño</option>
+                <option value="Madrid">Madrid</option><option value="Málaga">Málaga</option><option value="Mallorca">Mallorca</option><option value="Menorca">Menorca</option><option value="Murcia">Murcia</option>
+                <option value="Oviedo">Oviedo</option>
+                <option value="Palma">Palma</option><option value="Pamplona">Pamplona</option>
+                <option value="Salamanca">Salamanca</option><option value="San Sebastián">San Sebastián</option><option value="Santander">Santander</option><option value="Santiago">Santiago</option><option value="Sevilla">Sevilla</option>
+                <option value="Tarragona">Tarragona</option><option value="Tenerife">Tenerife</option><option value="Toledo">Toledo</option>
+                <option value="Valencia">Valencia</option><option value="Valladolid">Valladolid</option><option value="Vigo">Vigo</option><option value="Vitoria">Vitoria</option>
+                <option value="Zaragoza">Zaragoza</option>
+              </select>
             </div>
             <div class="form__group"><input type="email" name="email" data-i18n-placeholder="form_email" placeholder="Email"></div>
           </div>
