@@ -201,6 +201,47 @@
     </div>
   </section>
 
+  </section>
+
+  <!-- ========== Contact / Solicitud ========== -->
+  <section class="section section--dark" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__label reveal">✉️ Solicitud</div>
+        <h2 class="section__title reveal" data-i18n="contact_title">Solicita información</h2>
+        <p class="section__desc reveal" data-i18n="contact_desc">Disponibles 24/7. Llama o escribe. Actuamos en toda España.</p>
+      </div>
+      <div class="contact__inner">
+        <div class="contact__info reveal">
+          <div class="contact__item"><i class="fas fa-phone"></i><div><strong data-i18n="c_phone">Teléfono 24h</strong><a href="tel:+34600000000" id="phoneLink">+34 600 000 000</a></div></div>
+          <div class="contact__item"><i class="fab fa-whatsapp"></i><div><strong data-i18n="c_whatsapp">WhatsApp</strong><a href="https://wa.me/34600000000" id="whatsappLink">+34 600 000 000</a></div></div>
+          <div class="contact__item"><i class="fas fa-envelope"></i><div><strong>Email</strong><a href="mailto:info@pitbullprotege.com">info@pitbullprotege.com</a></div></div>
+          <div class="contact__item"><i class="fas fa-clock"></i><div><strong>Horario</strong><span data-i18n="c_hours">Lun-Vie: 9:00-20:00 / Urgencias: 24h</span></div></div>
+        </div>
+        <form class="contact__form reveal reveal-delay-2" id="contactForm">
+          <h3 data-i18n="form_title">Solicita información sin compromiso</h3>
+          <div class="form__row">
+            <div class="form__group"><input type="text" name="name" data-i18n-placeholder="form_name" placeholder="Nombre *" required></div>
+            <div class="form__group"><input type="tel" name="phone" data-i18n-placeholder="form_phone" placeholder="Teléfono *" required></div>
+          </div>
+          <div class="form__row">
+            <div class="form__group"><input type="text" name="city" data-i18n-placeholder="form_city" placeholder="Ciudad de la propiedad *" required></div>
+            <div class="form__group"><input type="email" name="email" data-i18n-placeholder="form_email" placeholder="Email"></div>
+          </div>
+          <div class="form__group"><textarea name="message" rows="4" data-i18n-placeholder="form_msg" placeholder="Cuéntanos tu caso..."></textarea></div>
+          <div class="form__group">
+            <label class="form__checkbox">
+              <input type="checkbox" required>
+              <span data-i18n="form_consent">He leído y acepto la política de privacidad</span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full" data-i18n="form_submit"><i class="fas fa-paper-plane"></i> Enviar solicitud</button>
+          <p class="form__note" data-i18n="form_note">🔒 Tus datos están seguros. Solo usamos tu número para contactarte.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
   <!-- ========== Services ========== -->
   <section class="section section--dark" id="services">
     <div class="container">
@@ -455,46 +496,6 @@
       <div class="cta-banner__actions reveal">
         <a href="tel:+34600000000" class="btn btn--primary btn--large"><i class="fas fa-phone-volume"></i> 600 000 000</a>
         <a href="#contact" class="btn btn--outline btn--large" data-i18n="cta_btn">Solicitar llamada</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== Contact ========== -->
-  <section class="section" id="contact">
-    <div class="container">
-      <div class="section__header">
-        <div class="section__label reveal">📞 Contacto</div>
-        <h2 class="section__title reveal" data-i18n="contact_title">Contacta con nosotros</h2>
-        <p class="section__desc reveal" data-i18n="contact_desc">Disponibles 24/7. Llama o escribe. Actuamos en toda España.</p>
-      </div>
-      <div class="contact__inner">
-        <div class="contact__info reveal">
-          <div class="contact__item"><i class="fas fa-phone"></i><div><strong data-i18n="c_phone">Teléfono 24h</strong><a href="tel:+34600000000">600 000 000</a></div></div>
-          <div class="contact__item"><i class="fab fa-whatsapp"></i><div><strong data-i18n="c_whatsapp">WhatsApp</strong><a href="https://wa.me/34600000000">600 000 000</a></div></div>
-          <div class="contact__item"><i class="fas fa-envelope"></i><div><strong>Email</strong><a href="mailto:info@pitbullprotege.com">info@pitbullprotege.com</a></div></div>
-          <div class="contact__item"><i class="fas fa-location-dot"></i><div><strong data-i18n="c_address">Oficina</strong><span>España</span></div></div>
-          <div class="contact__item"><i class="fas fa-clock"></i><div><strong>Horario</strong><span data-i18n="c_hours">Lun-Vie: 9:00-20:00 / Urgencias: 24h</span></div></div>
-        </div>
-        <form class="contact__form reveal reveal-delay-2" id="contactForm">
-          <h3 data-i18n="form_title">Solicita información sin compromiso</h3>
-          <div class="form__row">
-            <div class="form__group"><input type="text" name="name" data-i18n-placeholder="form_name" placeholder="Nombre *" required></div>
-            <div class="form__group"><input type="tel" name="phone" data-i18n-placeholder="form_phone" placeholder="Teléfono *" required></div>
-          </div>
-          <div class="form__row">
-            <div class="form__group"><input type="text" name="city" data-i18n-placeholder="form_city" placeholder="Ciudad de la propiedad *" required></div>
-            <div class="form__group"><input type="email" name="email" data-i18n-placeholder="form_email" placeholder="Email"></div>
-          </div>
-          <div class="form__group"><textarea name="message" rows="4" data-i18n-placeholder="form_msg" placeholder="Cuéntanos tu caso..."></textarea></div>
-          <div class="form__group">
-            <label class="form__checkbox">
-              <input type="checkbox" required>
-              <span data-i18n="form_consent">He leído y acepto la política de privacidad</span>
-            </label>
-          </div>
-          <button type="submit" class="btn btn--primary btn--full" data-i18n="form_submit"><i class="fas fa-paper-plane"></i> Enviar solicitud</button>
-          <p class="form__note" data-i18n="form_note">🔒 Tus datos están seguros. Solo usamos tu número para contactarte.</p>
-        </form>
       </div>
     </div>
   </section>
