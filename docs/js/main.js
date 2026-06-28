@@ -90,7 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const msg = form.querySelector('[name="message"]')?.value.trim();
       const lang = html.dataset.lang || 'es';
 
-      const text = `🔔 <b>Nueva solicitud!</b>\n\n👤 <b>Nombre:</b> ${name}\n📞 <b>Teléfono:</b> ${phone}\n🌍 <b>Idioma:</b> ${lang.toUpperCase()}\n🏙️ <b>Ciudad:</b> ${city || '—'}${email ? `\n📧 <b>Email:</b> ${email}` : ''}${msg ? `\n💬 <b>Mensaje:</b> ${msg}` : ''}\n\n⏰ ${new Date().toLocaleString('es-ES')}`;
+      const langName = langLabels[lang] || lang.toUpperCase();
+      const text = `🔔 <b>Nueva solicitud!</b>\n\n👤 <b>Nombre:</b> ${name}\n📞 <b>Teléfono:</b> ${phone}\n🌍 <b>Idioma:</b> ${langName}\n🏙️ <b>Ciudad:</b> ${city || '—'}${email ? `\n📧 <b>Email:</b> ${email}` : ''}${msg ? `\n💬 <b>Mensaje:</b> ${msg}` : ''}\n\n⏰ ${new Date().toLocaleString('es-ES')}`;
 
       btn.disabled = true;
       btn.innerHTML = '⏳ Enviando...';
