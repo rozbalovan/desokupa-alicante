@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!name || !phone) { alert('Por favor, completa los campos obligatorios.'); return; }
 
       const email = form.querySelector('[name="email"]')?.value.trim();
-      const city = form.querySelector('[name="city"]')?.value || '';
+      const city = form.querySelector('[name="city"]')?.value.trim() || '';
       const msg = form.querySelector('[name="message"]')?.value.trim();
       const lang = html.dataset.lang || 'es';
 
