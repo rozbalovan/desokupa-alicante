@@ -54,7 +54,7 @@ const i18n = {
     footer_desc:"Expertos en desokupación profesional en toda España.",
     footer_s1:"Servicios", footer_srv1:"Desokupación Exprés", footer_srv2:"Mediación Morosos",
     footer_srv3:"Asesoría Jurídica", footer_srv4:"Seguridad y Vigilancia", footer_s2:"Contacto",
-    footer_copyright:"© 2026 PitbullProtege — Todos los derechos reservados",
+    footer_copyright:"© 2026 PitbullDesokupas — Todos los derechos reservados",
     lang_name:"Español"
   },
   en: {
@@ -111,7 +111,7 @@ const i18n = {
     footer_desc:"Professional property protection experts across all of Spain.",
     footer_s1:"Services", footer_srv1:"Express Eviction", footer_srv2:"Tenant Mediation",
     footer_srv3:"Legal Advisory", footer_srv4:"Security", footer_s2:"Contact",
-    footer_copyright:"© 2026 PitbullProtege — All rights reserved",
+    footer_copyright:"© 2026 PitbullDesokupas — All rights reserved",
     lang_name:"English"
   },
   ru: {
@@ -167,7 +167,7 @@ const i18n = {
     footer_desc:"Эксперты по защите недвижимости по всей Испании.",
     footer_s1:"Услуги", footer_srv1:"Срочное выселение", footer_srv2:"Переговоры",
     footer_srv3:"Юрпомощь", footer_srv4:"Охрана", footer_s2:"Контакты",
-    footer_copyright:"© 2026 PitbullProtege — Все права защищены",
+    footer_copyright:"© 2026 PitbullDesokupas — Все права защищены",
     lang_name:"Русский"
   },
   de: {
@@ -224,7 +224,7 @@ const i18n = {
     footer_desc:"Professionelle Schutzexperten in ganz Spanien.",
     footer_s1:"Leistungen", footer_srv1:"Express-Räumung", footer_srv2:"Mietervermittlung",
     footer_srv3:"Rechtsberatung", footer_srv4:"Sicherheit", footer_s2:"Kontakt",
-    footer_copyright:"© 2026 PitbullProtege — Alle Rechte vorbehalten",
+    footer_copyright:"© 2026 PitbullDesokupas — Alle Rechte vorbehalten",
     lang_name:"Deutsch"
   },
   fr: {
@@ -282,7 +282,7 @@ const i18n = {
     footer_desc:"Experts en protection professionnelle dans toute l'Espagne.",
     footer_s1:"Services", footer_srv1:"Expulsion Express", footer_srv2:"Médiation",
     footer_srv3:"Conseil Juridique", footer_srv4:"Sécurité", footer_s2:"Contact",
-    footer_copyright:"© 2026 PitbullProtege — Tous droits réservés",
+    footer_copyright:"© 2026 PitbullDesokupas — Tous droits réservés",
     lang_name:"Français"
   },
   nl: {
@@ -339,7 +339,7 @@ const i18n = {
     footer_desc:"Professionele beschermingsexperts in heel Spanje.",
     footer_s1:"Diensten", footer_srv1:"Express Ontruiming", footer_srv2:"Huurdersbemiddeling",
     footer_srv3:"Juridisch Advies", footer_srv4:"Beveiliging", footer_s2:"Contact",
-    footer_copyright:"© 2026 PitbullProtege — Alle rechten voorbehouden",
+    footer_copyright:"© 2026 PitbullDesokupas — Alle rechten voorbehouden",
     lang_name:"Nederlands"
   },
   sv: {
@@ -396,7 +396,7 @@ const i18n = {
     footer_desc:"Professionella skyddsexperter i hela Spanien.",
     footer_s1:"Tjänster", footer_srv1:"Express Avhysning", footer_srv2:"Hyresgästmedling",
     footer_srv3:"Juridisk Rådgivning", footer_srv4:"Säkerhet", footer_s2:"Kontakt",
-    footer_copyright:"© 2026 PitbullProtege — Alla rättigheter förbehållna",
+    footer_copyright:"© 2026 PitbullDesokupas — Alla rättigheter förbehållna",
     lang_name:"Svenska"
   },
   pl: {
@@ -453,7 +453,7 @@ const i18n = {
     footer_desc:"Profesjonalni eksperci ochrony w całej Hiszpanii.",
     footer_s1:"Usługi", footer_srv1:"Eksmisja Ekspres", footer_srv2:"Mediacja",
     footer_srv3:"Doradztwo Prawne", footer_srv4:"Ochrona", footer_s2:"Kontakt",
-    footer_copyright:"© 2026 PitbullProtege — Wszelkie prawa zastrzeżone",
+    footer_copyright:"© 2026 PitbullDesokupas — Wszelkie prawa zastrzeżone",
     lang_name:"Polski"
   }
 };
