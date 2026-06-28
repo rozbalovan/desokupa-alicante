@@ -74,29 +74,57 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* ========== Contact Form → WhatsApp ========== */
+  /* ========== Contact Form → Telegram Bot ========== */
   const form = document.getElementById('contactForm');
+  const BOT_TOKEN = '8866291567:AAH5iVI15gtppDlk96jv04V34R36sloG_sY';
+  const CHAT_ID = '190716870';
+
   if (form) {
-    form.addEventListener('submit', e => {
+    form.addEventListener('submit', async e => {
       e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
       const name = form.querySelector('[name="name"]')?.value.trim();
       const phone = form.querySelector('[name="phone"]')?.value.trim();
-      if (!name || !phone) { alert('Please complete required fields.'); return; }
+      if (!name || !phone) { alert('Por favor, completa los campos obligatorios.'); return; }
 
       const email = form.querySelector('[name="email"]')?.value.trim();
-      const location = form.querySelector('[name="location"]')?.value.trim();
+      const city = form.querySelector('[name="city"]')?.value || '';
       const msg = form.querySelector('[name="message"]')?.value.trim();
       const lang = html.dataset.lang || 'es';
 
-      const text = `New inquiry from ${name} | Lang: ${lang} | Phone: ${phone}${email ? ` | Email: ${email}` : ''}${location ? ` | Location: ${location}` : ''}${msg ? ` | Message: ${msg}` : ''}`;
+      const text = `🔔 <b>Nueva solicitud!</b>\n\n👤 <b>Nombre:</b> ${name}\n📞 <b>Teléfono:</b> ${phone}\n🌍 <b>Idioma:</b> ${lang.toUpperCase()}\n🏙️ <b>Ciudad:</b> ${city || '—'}${email ? `\n📧 <b>Email:</b> ${email}` : ''}${msg ? `\n💬 <b>Mensaje:</b> ${msg}` : ''}\n\n⏰ ${new Date().toLocaleString('es-ES')}`;
 
-      window.open(`https://wa.me/34600000000?text=${encodeURIComponent(text)}`, '_blank');
-      form.reset();
-      form.querySelector('button[type="submit"]').textContent = '✓ Enviado / Sent';
+      // Send to Telegram bot
+      btn.disabled = true;
+      btn.innerHTML = '⏳ Enviando...';
+
+      try {
+        const res = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            chat_id: CHAT_ID,
+            text: text,
+            parse_mode: 'HTML'
+          })
+        });
+
+        const data = await res.json();
+        if (data.ok) {
+          btn.innerHTML = '✅ ¡Enviado!';
+          form.reset();
+        } else {
+          btn.innerHTML = '❌ Error, intenta de nuevo';
+        }
+      } catch(err) {
+        btn.innerHTML = '❌ Error de conexión';
+      }
+
       setTimeout(() => {
+        btn.disabled = false;
         const dict = i18n[lang];
-        form.querySelector('button[type="submit"]').innerHTML = dict?.form_submit ? `<i class="fas fa-paper-plane"></i> ${dict.form_submit}` : 'Send';
-      }, 3000);
+        btn.innerHTML = dict?.form_submit ? `<i class="fas fa-paper-plane"></i> ${dict.form_submit}` : 'Send';
+      }, 4000);
     });
   }
 

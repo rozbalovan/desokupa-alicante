@@ -420,10 +420,31 @@
         </div>
         <form class="contact__form reveal reveal-delay-2" id="contactForm">
           <h3 data-i18n="form_title">Solicita información sin compromiso</h3>
-          <div class="form__group"><input type="text" name="name" data-i18n-placeholder="form_name" placeholder="Nombre *" required></div>
-          <div class="form__group"><input type="tel" name="phone" data-i18n-placeholder="form_phone" placeholder="Teléfono *" required></div>
-          <div class="form__group"><input type="email" name="email" data-i18n-placeholder="form_email" placeholder="Email"></div>
-          <div class="form__group"><input type="text" name="location" data-i18n-placeholder="form_location" placeholder="Ubicación de la propiedad"></div>
+          <div class="form__row">
+            <div class="form__group"><input type="text" name="name" data-i18n-placeholder="form_name" placeholder="Nombre *" required></div>
+            <div class="form__group"><input type="tel" name="phone" data-i18n-placeholder="form_phone" placeholder="Teléfono *" required></div>
+          </div>
+          <div class="form__row">
+            <div class="form__group">
+              <select name="city" class="form__select" required>
+                <option value="" data-i18n="form_city_placeholder">Selecciona ciudad</option>
+                <option value="Alicante">Alicante</option>
+                <option value="Benidorm">Benidorm</option>
+                <option value="Elche">Elche</option>
+                <option value="Torrevieja">Torrevieja</option>
+                <option value="Santa Pola">Santa Pola</option>
+                <option value="Villajoyosa">Villajoyosa</option>
+                <option value="Altea">Altea</option>
+                <option value="Denia">Denia</option>
+                <option value="Calpe">Calpe</option>
+                <option value="Javea">Jávea</option>
+                <option value="Murcia">Murcia</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Otro">Otro / No lo sé</option>
+              </select>
+            </div>
+            <div class="form__group"><input type="email" name="email" data-i18n-placeholder="form_email" placeholder="Email"></div>
+          </div>
           <div class="form__group"><textarea name="message" rows="4" data-i18n-placeholder="form_msg" placeholder="Cuéntanos tu caso..."></textarea></div>
           <div class="form__group">
             <label class="form__checkbox">
@@ -432,6 +453,7 @@
             </label>
           </div>
           <button type="submit" class="btn btn--primary btn--full" data-i18n="form_submit"><i class="fas fa-paper-plane"></i> Enviar solicitud</button>
+          <p class="form__note" data-i18n="form_note">🔒 Tus datos están seguros. Solo usamos tu número para contactarte.</p>
         </form>
       </div>
     </div>
