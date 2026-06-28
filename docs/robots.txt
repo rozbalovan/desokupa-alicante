@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://desokupas.org/sitemap.xml
+Sitemap: https://desokupas.net/sitemap.xml
