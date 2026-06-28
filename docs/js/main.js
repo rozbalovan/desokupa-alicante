@@ -6,13 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const langCurrent = document.getElementById('langCurrent');
   const langSelect = langBtn.closest('.lang-select');
 
-  // Toggle dropdown
   langBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     langSelect.classList.toggle('open');
   });
 
-  // Close on outside click
   document.addEventListener('click', () => langSelect.classList.remove('open'));
   langMenu.addEventListener('click', (e) => e.stopPropagation());
 
@@ -94,7 +92,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const text = `🔔 <b>Nueva solicitud!</b>\n\n👤 <b>Nombre:</b> ${name}\n📞 <b>Teléfono:</b> ${phone}\n🌍 <b>Idioma:</b> ${lang.toUpperCase()}\n🏙️ <b>Ciudad:</b> ${city || '—'}${email ? `\n📧 <b>Email:</b> ${email}` : ''}${msg ? `\n💬 <b>Mensaje:</b> ${msg}` : ''}\n\n⏰ ${new Date().toLocaleString('es-ES')}`;
 
-      // Send to Telegram bot
       btn.disabled = true;
       btn.innerHTML = '⏳ Enviando...';
 
