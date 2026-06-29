@@ -40,6 +40,22 @@
         </ul>
       </nav>
       <div class="header__actions">
+        <div class="lang-select">
+          <button class="lang-select__btn" id="langSelectBtn">
+            <span id="langCurrent">🇪🇸 ES</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <ul class="lang-select__menu" id="langMenu">
+            <li><button class="lang-btn active" data-lang="es">🇪🇸 Español</button></li>
+            <li><button class="lang-btn" data-lang="en">🇬🇧 English</button></li>
+            <li><button class="lang-btn" data-lang="de">🇩🇪 Deutsch</button></li>
+            <li><button class="lang-btn" data-lang="fr">🇫🇷 Français</button></li>
+            <li><button class="lang-btn" data-lang="nl">🇳🇱 Nederlands</button></li>
+            <li><button class="lang-btn" data-lang="sv">🇸🇪 Svenska</button></li>
+            <li><button class="lang-btn" data-lang="pl">🇵🇱 Polski</button></li>
+            <li><button class="lang-btn" data-lang="ru">🇷🇺 Русский</button></li>
+          </ul>
+        </div>
         <button class="hamburger" id="hamburger" aria-label="Menú" onclick="document.querySelector('.hamburger').classList.toggle('active');document.getElementById('nav').classList.toggle('open')">
           <span></span><span></span><span></span>
         </button>
@@ -128,6 +144,13 @@
         </div>
       </div>
     </div>
+
+        <div class="faq__item" style="border:2px solid var(--gold);border-radius:var(--radius-sm)">
+          <button class="faq__question" onclick="this.closest('.faq__item').classList.toggle('active')">
+            <span style="color:var(--gold);font-weight:700">💡 ¿Por qué trabajamos con prepago?</span> <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq__answer"><p>Trabajamos con prepago porque garantiza el compromiso de ambas partes. Nuestro servicio requiere movilizar un equipo legal y operativo desde el primer minuto: abogados, mediadores, seguridad y logística. El prepago cubre estos costes iniciales y nos permite actuar de inmediato, sin papeleo ni demoras. <strong>Garantizamos el resultado por escrito</strong> con contrato y seguro de hasta 500.000€. Si no recuperamos tu propiedad, tú no pierdes nada.</p></div>
+        </div>
   </section>
 
   <!-- ========== CTA ========== -->
@@ -171,6 +194,7 @@
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script>
     document.querySelectorAll('.nav__link').forEach(link => {

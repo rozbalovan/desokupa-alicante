@@ -46,6 +46,7 @@ const i18n = {
     f4_q:"¿Trabajan en toda España?", f4_a:"Sí. Tenemos equipo en toda España. Actuamos donde nos necesites.",
     f5_q:"¿Cuánto cuesta?", f5_a:"Cada caso es único. Te damos presupuesto personalizado sin compromiso.",
     f6_q:"¿Garantizan el resultado?", f6_a:"97% de éxito. Seguro RC y contrato. Nuestro compromiso: recuperar tu propiedad.",
+    f_prepay:"Trabajamos con prepago para garantizar el compromiso de ambas partes. Nuestro servicio moviliza desde el primer minuto un equipo legal y operativo: abogados, mediadores y seguridad. El prepago nos permite actuar de inmediato. Garantizamos el resultado por escrito con contrato y seguro de hasta 500.000€.",
     test_title:"Lo que dicen nuestros clientes",
     t1:'"Recuperaron mi piso en 48 horas. Llevaba 8 meses sin cobrar. Profesionales."',
     t2:'"Casa okupada en Benidorm. Llamé domingo, martes recuperada. Increíble."',
@@ -62,7 +63,7 @@ const i18n = {
     footer_desc:"Expertos en desokupación profesional en toda España.",
     footer_s1:"Servicios", footer_srv1:"Desokupación Exprés", footer_srv2:"Mediación Morosos",
     footer_srv3:"Asesoría Jurídica", footer_srv4:"Seguridad y Vigilancia", footer_s2:"Contacto",
-    footer_copyright:"© 2026 DesokupasOrganizacion — Todos los derechos reservados",
+    footer_copyright:"© 2026 Desokupas Organización — Todos los derechos reservados",
     lang_name:"Español"
   },
   en: {
@@ -111,6 +112,7 @@ const i18n = {
     f4_q:"Do you work across all of Spain?", f4_a:"Yes. We have teams across Spain. We operate wherever you need us.",
     f5_q:"How much does it cost?", f5_a:"Each case is unique. We give a personalized quote with no obligation.",
     f6_q:"Do you guarantee results?", f6_a:"97% success rate. Insurance and contract. Our commitment: recover your property.",
+    f_prepay:"We work with prepayment to guarantee commitment from both sides. Our service mobilizes a legal and operational team from minute one: lawyers, mediators and security. Prepayment allows us to act immediately. We guarantee the result in writing with contract and insurance up to 500,000€.",
     test_title:"What our clients say",
     t1:'"They recovered my flat in 48 hours. 8 months without payment. Professionals."',
     t2:'"House squatted in Benidorm. Called Sunday, recovered Tuesday. Unbelievable."',
@@ -127,7 +129,7 @@ const i18n = {
     footer_desc:"Professional property protection experts across all of Spain.",
     footer_s1:"Services", footer_srv1:"Express Eviction", footer_srv2:"Tenant Mediation",
     footer_srv3:"Legal Advisory", footer_srv4:"Security", footer_s2:"Contact",
-    footer_copyright:"© 2026 DesokupasOrganizacion — All rights reserved",
+    footer_copyright:"© 2026 Desokupas Organización — All rights reserved",
     lang_name:"English"
   },
   ru: {
@@ -176,6 +178,7 @@ const i18n = {
     f4_q:"Работаете по всей Испании?", f4_a:"Да. У нас команда по всей Испании. Работаем где нужно.",
     f5_q:"Сколько стоит?", f5_a:"Индивидуально. Свяжитесь — расчёт бесплатно и без обязательств.",
     f6_q:"Гарантируете результат?", f6_a:"97% успеха. Страховка и договор. Цель — ваша собственность.",
+    f_prepay:"Мы работаем по предоплате, чтобы гарантировать обязательства обеих сторон. Наш сервис мобилизует юридическую и оперативную команду с первой минуты: адвокатов, медиаторов и охрану. Предоплата позволяет нам действовать немедленно. Мы гарантируем результат письменно — договор и страховка до 500.000€.",
     test_title:"Отзывы клиентов",
     t1:'"Вернули квартиру за 48 часов. 8 месяцев не платил. Профессионально."',
     t2:'"Дом захватили в Бенидорме. Позвонил в воскресенье — во вторник вернули."',
@@ -191,7 +194,7 @@ const i18n = {
     footer_desc:"Эксперты по защите недвижимости по всей Испании.",
     footer_s1:"Услуги", footer_srv1:"Срочное выселение", footer_srv2:"Переговоры",
     footer_srv3:"Юрпомощь", footer_srv4:"Охрана", footer_s2:"Контакты",
-    footer_copyright:"© 2026 DesokupasOrganizacion — Все права защищены",
+    footer_copyright:"© 2026 Desokupas Organización — Все права защищены",
     lang_name:"Русский"
   },
   de: {
@@ -240,6 +243,7 @@ const i18n = {
     f4_q:"Arbeiten Sie in ganz Spanien?", f4_a:"Ja. Wir haben Teams in ganz Spanien. Wir arbeiten wo Sie uns brauchen.",
     f5_q:"Was kostet eine Räumung?", f5_a:"Jeder Fall ist einzigartig. Wir erstellen ein unverbindliches Angebot.",
     f6_q:"Garantieren Sie den Erfolg?", f6_a:"97% Erfolgsquote. Versicherung und Vertrag. Unser Ziel: Ihre Immobilie zurückgeben.",
+    f_prepay:"Wir arbeiten mit Vorauszahlung, um das Engagement beider Seiten zu garantieren. Unser Service mobilisiert ab der ersten Minute ein rechtliches und operatives Team: Anwälte, Vermittler und Sicherheitspersonal. Die Vorauszahlung ermöglicht uns sofortiges Handeln. Wir garantieren das Ergebnis schriftlich mit Vertrag und Versicherung bis zu 500.000€.",
     test_title:"Was unsere Kunden sagen",
     t1:'"Sie haben meine Wohnung in 48 Stunden befreit. 8 Monate keine Zahlung. Profis."',
     t2:'"Haus in Benidorm besetzt. Sonntags angerufen, dienstags befreit. Unglaublich."',
@@ -256,7 +260,7 @@ const i18n = {
     footer_desc:"Professionelle Schutzexperten in ganz Spanien.",
     footer_s1:"Leistungen", footer_srv1:"Express-Räumung", footer_srv2:"Mietervermittlung",
     footer_srv3:"Rechtsberatung", footer_srv4:"Sicherheit", footer_s2:"Kontakt",
-    footer_copyright:"© 2026 DesokupasOrganizacion — Alle Rechte vorbehalten",
+    footer_copyright:"© 2026 Desokupas Organización — Alle Rechte vorbehalten",
     lang_name:"Deutsch"
   },
   fr: {
@@ -306,6 +310,7 @@ const i18n = {
     f4_q:"Travaillez-vous dans toute l Espagne?", f4_a:"Oui. Nous avons des équipes dans toute l Espagne.",
     f5_q:"Combien ça coûte?", f5_a:"Chaque cas est unique. Devis personnalisé sans engagement.",
     f6_q:"Garantissez-vous le résultat?", f6_a:"97% de succès. Assurance et contrat. Notre engagement : récupérer votre bien.",
+    f_prepay:"Nous travaillons avec prépaiement pour garantir l'engagement des deux parties. Notre service mobilise une équipe juridique et opérationnelle dès la première minute : avocats, médiateurs et sécurité. Le prépaiement nous permet d'agir immédiatement. Nous garantissons le résultat par écrit avec contrat et assurance jusqu'à 500.000€.",
     test_title:"Ce que disent nos clients",
     t1:'"Ils ont récupéré mon appartement en 48h. 8 mois sans paiement. Professionnels."',
     t2:'"Maison squattée à Benidorm. Appel dimanche, récupérée mardi. Incroyable."',
@@ -322,7 +327,7 @@ const i18n = {
     footer_desc:"Experts en protection professionnelle dans toute l'Espagne.",
     footer_s1:"Services", footer_srv1:"Expulsion Express", footer_srv2:"Médiation",
     footer_srv3:"Conseil Juridique", footer_srv4:"Sécurité", footer_s2:"Contact",
-    footer_copyright:"© 2026 DesokupasOrganizacion — Tous droits réservés",
+    footer_copyright:"© 2026 Desokupas Organización — Tous droits réservés",
     lang_name:"Français"
   },
   nl: {
@@ -371,6 +376,7 @@ const i18n = {
     f4_q:"Werkt u in heel Spanje?", f4_a:"Ja. Wij hebben teams in heel Spanje.",
     f5_q:"Wat kost het?", f5_a:"Elk geval is uniek. Wij geven een vrijblijvende offerte.",
     f6_q:"Garandeert u het resultaat?", f6_a:"97% succes. Verzekering en contract. Ons doel: uw woning teruggeven.",
+    f_prepay:"Wij werken met vooruitbetaling om de betrokkenheid van beide partijen te garanderen. Onze dienst mobiliseert vanaf de eerste minuut een juridisch en operationeel team: advocaten, bemiddelaars en beveiliging. Vooruitbetaling stelt ons in staat onmiddellijk te handelen. Wij garanderen het resultaat schriftelijk met contract en verzekering tot 500.000€.",
     test_title:"Wat onze klanten zeggen",
     t1:'"Ze hebben mijn appartement in 48 uur bevrijd. 8 maanden geen betaling. Professionals."',
     t2:'"Huis gekraakt in Benidorm. Zondag gebeld, dinsdag terug. Ongelooflijk."',
@@ -387,7 +393,7 @@ const i18n = {
     footer_desc:"Professionele beschermingsexperts in heel Spanje.",
     footer_s1:"Diensten", footer_srv1:"Express Ontruiming", footer_srv2:"Huurdersbemiddeling",
     footer_srv3:"Juridisch Advies", footer_srv4:"Beveiliging", footer_s2:"Contact",
-    footer_copyright:"© 2026 DesokupasOrganizacion — Alle rechten voorbehouden",
+    footer_copyright:"© 2026 Desokupas Organización — Alle rechten voorbehouden",
     lang_name:"Nederlands"
   },
   sv: {
@@ -436,6 +442,7 @@ const i18n = {
     f4_q:"Arbetar ni i hela Spanien?", f4_a:"Ja. Vi har team i hela Spanien.",
     f5_q:"Vad kostar det?", f5_a:"Varje fall är unikt. Vi ger en personlig offert utan förbindelse.",
     f6_q:"Garantierar ni resultatet?", f6_a:"97% framgång. Försäkring och kontrakt. Vårt mål: återlämna din egendom.",
+    f_prepay:"Vi arbetar med förskottsbetalning för att garantera båda parters engagemang. Vår tjänst mobiliserar ett juridiskt och operativt team från första minuten: advokater, medlare och säkerhet. Förskottsbetalning gör att vi kan agera omedelbart. Vi garanterar resultatet skriftligt med kontrakt och försäkring upp till 500.000€.",
     test_title:"Vad våra kunder säger",
     t1:'"De befriade min lägenhet på 48 timmar. 8 månader utan betalning. Proffs."',
     t2:'"Hus ockuperat i Benidorm. Ringde söndag, återfått tisdag. Otroligt."',
@@ -452,7 +459,7 @@ const i18n = {
     footer_desc:"Professionella skyddsexperter i hela Spanien.",
     footer_s1:"Tjänster", footer_srv1:"Express Avhysning", footer_srv2:"Hyresgästmedling",
     footer_srv3:"Juridisk Rådgivning", footer_srv4:"Säkerhet", footer_s2:"Kontakt",
-    footer_copyright:"© 2026 DesokupasOrganizacion — Alla rättigheter förbehållna",
+    footer_copyright:"© 2026 Desokupas Organización — Alla rättigheter förbehållna",
     lang_name:"Svenska"
   },
   pl: {
@@ -501,6 +508,7 @@ const i18n = {
     f4_q:"Działacie w całej Hiszpanii?", f4_a:"Tak. Mamy zespoły w całej Hiszpanii. Działamy gdzie potrzebujesz.",
     f5_q:"Ile to kosztuje?", f5_a:"Każda sprawa jest inna. Dajemy bezpłatną wycenę bez zobowiązań.",
     f6_q:"Gwarantujecie efekt?", f6_a:"97% skuteczności. Ubezpieczenie i umowa. Cel: odzyskać Twoją nieruchomość.",
+    f_prepay:"Pracujemy z przedpłatą, aby zagwarantować zaangażowanie obu stron. Nasza usługa mobilizuje zespół prawny i operacyjny od pierwszej minuty: prawników, mediatorów i ochronę. Przedpłata pozwala nam działać natychmiast. Gwarantujemy wynik na piśmie z umową i ubezpieczeniem do 500.000€.",
     test_title:"Co mówią nasi klienci",
     t1:'"Odzyskali moje mieszkanie w 48h. 8 miesięcy bez płatności. Profesjonaliści."',
     t2:'"Dom zajęty w Benidorm. Zadzwoniłem w niedzielę, odzyskany we wtorek."',
@@ -517,7 +525,7 @@ const i18n = {
     footer_desc:"Profesjonalni eksperci ochrony w całej Hiszpanii.",
     footer_s1:"Usługi", footer_srv1:"Eksmisja Ekspres", footer_srv2:"Mediacja",
     footer_srv3:"Doradztwo Prawne", footer_srv4:"Ochrona", footer_s2:"Kontakt",
-    footer_copyright:"© 2026 DesokupasOrganizacion — Wszelkie prawa zastrzeżone",
+    footer_copyright:"© 2026 Desokupas Organización — Wszelkie prawa zastrzeżone",
     lang_name:"Polski"
   }
 };

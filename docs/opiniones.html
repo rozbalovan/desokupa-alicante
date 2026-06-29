@@ -40,6 +40,22 @@
         </ul>
       </nav>
       <div class="header__actions">
+        <div class="lang-select">
+          <button class="lang-select__btn" id="langSelectBtn">
+            <span id="langCurrent">🇪🇸 ES</span>
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <ul class="lang-select__menu" id="langMenu">
+            <li><button class="lang-btn active" data-lang="es">🇪🇸 Español</button></li>
+            <li><button class="lang-btn" data-lang="en">🇬🇧 English</button></li>
+            <li><button class="lang-btn" data-lang="de">🇩🇪 Deutsch</button></li>
+            <li><button class="lang-btn" data-lang="fr">🇫🇷 Français</button></li>
+            <li><button class="lang-btn" data-lang="nl">🇳🇱 Nederlands</button></li>
+            <li><button class="lang-btn" data-lang="sv">🇸🇪 Svenska</button></li>
+            <li><button class="lang-btn" data-lang="pl">🇵🇱 Polski</button></li>
+            <li><button class="lang-btn" data-lang="ru">🇷🇺 Русский</button></li>
+          </ul>
+        </div>
         <button class="hamburger" id="hamburger" aria-label="Menú" onclick="document.querySelector('.hamburger').classList.toggle('active');document.getElementById('nav').classList.toggle('open')">
           <span></span><span></span><span></span>
         </button>
@@ -126,6 +142,7 @@
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script>
     let selectedStars = 0;
