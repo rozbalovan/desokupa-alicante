@@ -704,6 +704,17 @@ a.coverage__item:hover{
   transform:translateY(-2px);
   box-shadow:var(--shadow-hover);
 }
+a.coverage__item--active{
+  background:var(--gold);
+  color:var(--dark-blue);
+  border-color:var(--gold);
+}
+a.coverage__item--active i{
+  color:var(--dark-blue);
+}
+a.coverage__item--active:hover{
+  background:var(--gold-light);
+}
 .coverage__item i{
   color:var(--gold);
   font-size:0.85rem;
